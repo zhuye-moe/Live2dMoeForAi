@@ -1,0 +1,29 @@
+{
+  "name": "live2dmoe-forai",
+  "private": false,
+  "version": "0.0.1",
+  "description": "基于live2D的SDK开发，结合ai模型接口",
+  "type": "module",
+  "main": "dist/live2dmoe-forai.umd.js",
+  "module": "dist/live2dmoe-forai.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.10"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6"
+  }
+}
